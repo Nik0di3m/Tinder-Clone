@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__logo{
+    object-fit: contain;
+    height: 40px;
+}
+
+.header__left{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__right{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: color 300ms ease-in-out;
+}
+
+
+
+.header__icon:hover{
+    color: rgb(255, 107, 107);
+}
